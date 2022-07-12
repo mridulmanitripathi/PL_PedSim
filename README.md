@@ -1,7 +1,7 @@
 # PL_PedSim
 Phantasma Labs simChallenge: modelling of a pedestrian simulator
 
-The task is explained the pdf file 'task.pdf'
+The task is explained the pdf file 'Phantasma Simulation Challenge.pdf'
 The detailed description of the approach taken in explained the pdf file 'Report_Tripathi.pdf'
 To run the simulation:
   1. clone the repository and do not change the structure.
