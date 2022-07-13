@@ -32,7 +32,7 @@ class PedGenerator:
         if self.sim.t - self.last_added_time >= 60 / self.ped_rate:
             hall = self.sim.halls[self.upcoming_ped.path[0]]  
             # Adding new pedestrians if there is a space in the corridor
-            if len(hall.peds) == 0 or hall.peds[-1].x > self.upcoming_ped.s0 + self.upcoming_ped.l:
+            if len(hall.peds) == 0 or hall.peds[-1].x > self.upcoming_ped.s0:
                 self.upcoming_ped.time_added = self.sim.t
                 hall.peds.append(self.upcoming_ped)
                 # Reset time for latest added pedestrian and counting the number of pedestrians generated
