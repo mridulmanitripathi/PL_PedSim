@@ -52,7 +52,7 @@ class Visual:
                     running = False            
         
         # Save the positions of pedestrians at the last time step
-        pygame.image.save(self.screen,"Last_time_step.jpg")
+        #pygame.image.save(self.screen,"Last_time_step.jpg")
         pygame. quit()
         
 
