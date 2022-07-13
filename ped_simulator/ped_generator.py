@@ -38,7 +38,7 @@ class PedGenerator:
                 # Reset time for latest added pedestrian and counting the number of pedestrians generated
                 self.last_added_time = self.sim.t
                 self.sim.counter+=1
-                print(self.sim.t,',', self.sim.counter)
+                #print(self.sim.t,',', self.sim.counter)
             # Adding the new pedestrian
             self.upcoming_ped = self.generate_ped()
             
