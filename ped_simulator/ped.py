@@ -11,7 +11,7 @@ class Ped:
     def set_default_config(self):    
         self.r = 0.25       # Radius of the pedestrian
         self.l = 2*self.r   # Length of the pedestrain (diameter)
-        self.s0 = self.l    # Minimum distance between two pedestrians
+        self.s0 = self.r    # Minimum distance between two pedestrians
         self.v_max = 1.3    # Maximum velocity of the pedestrian
         self.a_max = 2      # Maximum acceleration of the pedestrian
 
