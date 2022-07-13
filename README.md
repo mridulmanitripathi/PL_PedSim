@@ -9,6 +9,7 @@ To run the simulation:
   3. Open the notebook 'RUN.ipynb'
   4. Run the first cell in 'RUN.ipynb' if you want to store the output in a .txt file OR run the 4th cell if you want to change the parameters of the simulation
   5. If change in parameters is desired, change only the 'flux' value in cell 4, line 6.
+  6. Run the notebook 'flux_plots.ipynb' if plots for number of pedestrians at each second are needed to be generated.
 
 The simulation generates 3 output files: (a) image file for last time step (Last_time_step.png)
                                          (b) text file for number of pedestrians at each time step (num_peds.txt)
